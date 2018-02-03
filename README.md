@@ -1,6 +1,13 @@
 # WeChatJump
 This is WeChat Jump assistant program
 
+Principle:
+0.debuge mobile by adb
+1.get mobile screen capture
+2.show screen picture in pc
+3.click start position and end position, caculate their distance, covert to push duration time
+4.swipe mobile by pc, get new screen capture
+
 Running: demo.wmv
 
 Android Mobile:
@@ -16,8 +23,7 @@ Android Mobile:
  pip install Pillow,numpy,matplotlib
  project directory need copy adb
  
-   
-   
+
  Problem1: Device Unauthorized
  Solution: connect mobile by usb,delete C:\Users\username\.android addkey and addkey.pub(PC), Revoke USB debugging authorization and restart Developer Options(Mobile)
  
