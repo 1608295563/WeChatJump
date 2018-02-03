@@ -2,7 +2,7 @@
 This is WeChat Jump assistant program
 
 Principle:
-0.debuge mobile by adb
+0.debuge mobile by adb(http://adbshell.com/downloads)
 1.get mobile screen capture
 2.show screen picture in pc
 3.click start position and end position, caculate their distance, covert to push duration time
@@ -27,3 +27,6 @@ Android Mobile:
  Problem1: Device Unauthorized
  Solution: connect mobile by usb,delete C:\Users\username\.android addkey and addkey.pub(PC), Revoke USB debugging authorization and restart Developer Options(Mobile)
  
+ Reference:
+ 1.http://blog.csdn.net/yelang_110/article/details/55510105
+ 2.http://blog.csdn.net/gfg156196/article/details/77979507
