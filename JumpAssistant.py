@@ -40,7 +40,7 @@ def simulationMobile():  #实时同步手机
     figure=plt.figure()
     image=plt.imshow(getScreenFromMobile(),animated=True)
     figure.canvas.mpl_connect('button_press_event',callback)
-    FuncAnimation(figure,updateScreen,interval=50,blit=True)
+    fa=FuncAnimation(figure,updateScreen,interval=50,blit=True) #直接运行函数不行，必须实例化
     plt.show()
 
 if __name__=='__main__':
